@@ -1,4 +1,6 @@
-package com.ilyankin.minesweeper
+package minesweeper
 
-fun main(args: Array<String>) {
-}
+import minesweeper.minefield.Minefield
+import minesweeper.userinterface.ConsoleUserInterface
+
+fun main() = Minesweeper(ConsoleUserInterface(Minefield())).start()
