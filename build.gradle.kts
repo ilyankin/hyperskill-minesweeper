@@ -23,5 +23,9 @@ kotlin {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("com.ilyankin.minesweeper.MainKt")
+}
+
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
 }
