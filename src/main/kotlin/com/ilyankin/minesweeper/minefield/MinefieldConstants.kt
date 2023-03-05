@@ -1,4 +1,4 @@
-package minesweeper.minefield
+package com.ilyankin.minesweeper.minefield
 
 import java.util.concurrent.ThreadLocalRandom
 import kotlin.random.Random

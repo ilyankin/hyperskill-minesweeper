@@ -1,12 +1,12 @@
-package minesweeper.preset
+package com.ilyankin.minesweeper.preset
 
-import minesweeper.minefield.Hyperskill.DEFAULT_COLUMN_SEPARATOR
-import minesweeper.minefield.Hyperskill.DEFAULT_ROW_SEPARATOR
-import minesweeper.minefield.Hyperskill.FREE_CELL_SYMBOL
-import minesweeper.minefield.Hyperskill.MARKED_CELL_SYMBOL
-import minesweeper.minefield.Hyperskill.MINE_CELL_SYMBOL
-import minesweeper.minefield.Hyperskill.UNMARKED_CELL_SYMBOL
-import minesweeper.minefield.CellState
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_COLUMN_SEPARATOR
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_ROW_SEPARATOR
+import com.ilyankin.minesweeper.minefield.Hyperskill.FREE_CELL_SYMBOL
+import com.ilyankin.minesweeper.minefield.Hyperskill.MARKED_CELL_SYMBOL
+import com.ilyankin.minesweeper.minefield.Hyperskill.MINE_CELL_SYMBOL
+import com.ilyankin.minesweeper.minefield.Hyperskill.UNMARKED_CELL_SYMBOL
+import com.ilyankin.minesweeper.minefield.CellState
 
 sealed class VisualSettings(
     val mineCellSymbol: Char,

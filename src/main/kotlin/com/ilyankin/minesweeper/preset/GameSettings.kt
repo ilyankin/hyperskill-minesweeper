@@ -1,9 +1,9 @@
-package minesweeper.preset
+package com.ilyankin.minesweeper.preset
 
-import minesweeper.minefield.Hyperskill.DEFAULT_MINEFIELD_HEIGHT
-import minesweeper.minefield.Hyperskill.DEFAULT_MINEFIELD_WIDTH
-import minesweeper.minefield.Hyperskill.DEFAULT_NUMBER_MINES
-import minesweeper.minefield.Hyperskill.DEFAULT_RANDOM
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_MINEFIELD_HEIGHT
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_MINEFIELD_WIDTH
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_NUMBER_MINES
+import com.ilyankin.minesweeper.minefield.Hyperskill.DEFAULT_RANDOM
 import kotlin.random.Random
 
 sealed class GameSettings(

@@ -1,11 +1,11 @@
 package minesweeper
 
-import minesweeper.minefield.CellState
-import minesweeper.minefield.CellType
-import minesweeper.userinterface.AbstractUserInterface
-import minesweeper.userinterface.ActionType
-import minesweeper.userinterface.NumberMinesInput
-import minesweeper.userinterface.TurnInput
+import com.ilyankin.minesweeper.minefield.CellState
+import com.ilyankin.minesweeper.minefield.CellType
+import com.ilyankin.minesweeper.userinterface.AbstractUserInterface
+import com.ilyankin.minesweeper.userinterface.ActionType
+import com.ilyankin.minesweeper.userinterface.NumberMinesInput
+import com.ilyankin.minesweeper.userinterface.TurnInput
 
 class Minesweeper(private val userInterface: AbstractUserInterface) {
     private val minefield = userInterface.field

@@ -1,4 +1,4 @@
-package minesweeper.preset
+package com.ilyankin.minesweeper.preset
 
 
 sealed class MinesweeperPresets(val gameSettings: GameSettings, val visualSettings: VisualSettings) {

@@ -1,4 +1,4 @@
-package minesweeper.minefield
+package com.ilyankin.minesweeper.minefield
 
 data class Cell(
     val row: Int,

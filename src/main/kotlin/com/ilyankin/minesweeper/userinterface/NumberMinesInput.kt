@@ -1,4 +1,4 @@
-package minesweeper.userinterface
+package com.ilyankin.minesweeper.userinterface
 
 import java.lang.Exception
 

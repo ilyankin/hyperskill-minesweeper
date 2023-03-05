@@ -1,6 +1,6 @@
-package minesweeper.userinterface
+package com.ilyankin.minesweeper.userinterface
 
-import minesweeper.minefield.Minefield
+import com.ilyankin.minesweeper.minefield.Minefield
 
 
 interface UserInterface {

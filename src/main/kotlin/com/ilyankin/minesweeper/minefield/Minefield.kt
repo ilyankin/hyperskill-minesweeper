@@ -1,6 +1,6 @@
-package minesweeper.minefield
+package com.ilyankin.minesweeper.minefield
 
-import minesweeper.preset.MinesweeperPresets
+import com.ilyankin.minesweeper.preset.MinesweeperPresets
 
 enum class GameStatus {
     WIN,

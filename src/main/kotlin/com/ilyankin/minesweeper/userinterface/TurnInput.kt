@@ -1,4 +1,4 @@
-package minesweeper.userinterface
+package com.ilyankin.minesweeper.userinterface
 
 sealed class TurnInput {
     data class Success(val cell: UInt, val column: UInt, val actionType: ActionType) : TurnInput()
