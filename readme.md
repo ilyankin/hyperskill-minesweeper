@@ -30,11 +30,11 @@ One wrong move, and game over!
 
 2. **Open(free) cell**
 
-Enter `[column number] [row number] free`.
+   Enter `[column number] [row number] free`.
 
 3. **Mark/unmark cell**
 
-Enter `[column number] [row number] mine`.
+   Enter `[column number] [row number] mine`.
 
 # Graphic game symbols
 
